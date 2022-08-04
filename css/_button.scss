@@ -1,0 +1,18 @@
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    &.sign {
+        background-color: $twitter-color;
+        color: $white;
+    }
+    &:hover {
+        opacity: .9;
+    }
+}

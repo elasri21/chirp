@@ -1,0 +1,25 @@
+footer {
+    @media #{$small} {
+        padding: 50px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @media #{$mobile} {}
+    background-color: $sky-color;
+    padding: 30px 20px;
+    .links {
+        a {
+            font-size: 16px;
+            font-weight: 500;
+            color: $black;
+            margin-right: 15px;
+            &.last {
+                margin-right: 0;
+            }
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+}
