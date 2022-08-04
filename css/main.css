@@ -238,6 +238,9 @@ header .close i {
   z-index: 111111111;
   left: 160px;
 }
+.twitter-analysis .info .join-num p span {
+  color: #00acee;
+}
 .twitter-analysis .illus {
   width: 100%;
 }
@@ -312,15 +315,12 @@ header .close i {
   }
   .customers .customer.customer-1 {
     grid-column: 1/2;
-    grid-row: 2/3;
   }
   .customers .customer.customer-2 {
     grid-column: 2/3;
-    grid-row: 2/3;
   }
   .customers .customer.customer-3 {
     grid-column: 3/4;
-    grid-row: 2/3;
   }
 }
 .customers .customer {
@@ -328,6 +328,7 @@ header .close i {
   margin-bottom: 15px;
   background-color: #fff;
   border-radius: 4px;
+  height: fit-content;
 }
 .customers .customer .cus-pro {
   display: flex;

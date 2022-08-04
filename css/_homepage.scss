@@ -92,6 +92,13 @@
                 }
             }
         }
+        .join-num {
+            p {
+                span {
+                    color: $twitter-color;
+                }
+            }
+        }
     }
     .illus {
         width: 100%;
@@ -162,15 +169,12 @@
             margin-bottom: 0 !important;
             &.customer-1 {
                 grid-column: 1/2;
-                grid-row: 2/3;
             }
             &.customer-2 {
                 grid-column: 2/3;
-                grid-row: 2/3;
             }
             &.customer-3 {
                 grid-column: 3/4;
-                grid-row: 2/3;
             }
 
         }
@@ -180,6 +184,7 @@
         margin-bottom: 15px;
         background-color: $white;
         border-radius: 4px;
+        height: fit-content;
         .cus-pro {
             display: flex;
             justify-content: space-between;
